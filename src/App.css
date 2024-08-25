@@ -21,22 +21,53 @@ body {
   display: flex;
   justify-content: center;
    border-radius: 5px;
+   flex-direction: column;
+   gap:0px;
    
+   
+}
+h1{
+
+  font-family: sans-serif;
+font-size: 34.6px;
+font-weight: 700;
+line-height: 29.93px;
+letter-spacing: -0.03em;
+text-align: center;
+
+}
+.paragraph{
+  margin: none;
+  text-align: center;
+  font-family:sans-serif;
+  font-size: 20.11px;
+  gap:15px;
+  font-weight: 400;
+  line-height: 15.86px;
+  letter-spacing: -0.03em;
+  text-align: center;
+  color: #4A4E74;
+  margin:10px;
+  word-spacing: 1px;
+  
 }
 
 
 .value{
-  width: 35.84px;
-  height: 35.84px;
+  width: 40.84px;
+  height: 38.84px;
   text-align: center;
   padding-top: 7px;
   align-items: center;
   display: flex;
   justify-content: center;
   margin: 5px; /* Add margin to create space between items */
-  border-radius: 3.81px 0px 0px 0px;
+  border-radius: 5px;
   box-shadow: 0px 2px 2px 0px #00000026;
-  background: #FFFFFF;
+  
+}
+.value:active{
+  background-color: lightgreen;
 }
 .container {
   padding-top: 30px;
@@ -50,4 +81,30 @@ cursor: pointer;
   font-size:18px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color:grey
+}
+button{
+width: 120.16px;
+height: 35.84px;
+gap: 0px;
+border-radius: 6px;
+opacity: 0px;
+font-family: sans-serif;
+font-size: 1.2rem;
+font-weight: 700 b;
+line-height: 19.15px;
+text-align: center;
+color:white;
+border: none;
+  background: #5035FF;
+  cursor: pointer;
+  margin-top: 20px;
+ 
+  
+}
+button:focus {
+  outline: none;
+}
+
+button:active {
+  box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
 }
